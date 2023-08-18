@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./components/Homepage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/adoption" element={<Adoption />} />
         <Route path="/videos" element={<Videos />} /> */}
       </Routes>
+      <Footer />
     </>
   );
 }
