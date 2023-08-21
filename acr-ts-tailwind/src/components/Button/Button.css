@@ -1,0 +1,21 @@
+/* button {
+  background-color: orange;
+  color: white;
+  padding: 0 10px;
+  border-radius: 12px;
+} */
+
+.orange-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.orange-button:hover {
+  background-color: black;
+}
