@@ -1,5 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
@@ -10,14 +11,28 @@ const Navbar = () => {
           src="/images/acr_logo.webp"
           alt="logo"
         />
-        <Link to="/association">L'association</Link>
-        <Link to="/partenaires">Partenaires</Link>
-        <Link to="/adoption">Adoption</Link>
-        <Link to="/videos">Vidéos</Link>
-        <Link to="">Accès rapide</Link>
+
+        <ul className="nav-list">
+          <li>
+            <Link to="/association">L'association</Link>
+          </li>
+          <li>
+            <Link to="/partenaires">Partenaires</Link>
+          </li>
+          <li>
+            <Link to="/adoption">Adoption</Link>
+          </li>
+          <li>
+            <Link to="/videos">Vidéos</Link>
+          </li>
+          <li>
+            {" "}
+            <Link to="">Accès rapide</Link>
+          </li>
+        </ul>
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

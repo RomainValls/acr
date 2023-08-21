@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 const Homepage = () => {
   return (
     <div>
+      
+        <Banner
+        imageUrl="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg"
+        altText="save the cats pls"
+        heading="Hello from cats! meow meow"
+        //here - buttons
+      />
+      
       <section
         className="p-64 bg-cover"
         style={{ backgroundImage: "url('/images/cat_grass.jpg')" }}
@@ -92,4 +100,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Homepage
