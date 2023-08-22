@@ -1,8 +1,8 @@
 import React from "react"
-import "./Article.css"
+import "./ArticleHighlight.css"
 import Button from "../Button/Button"
 
-interface ArticleProps {
+interface ArticleHighlightProps {
   title: string
   text: string
   imgSrc: string
@@ -11,7 +11,7 @@ interface ArticleProps {
   link: string
 }
 
-const Article: React.FC<ArticleProps> = ({
+const ArticleHighlight: React.FC<ArticleHighlightProps> = ({
   title,
   text,
   imgSrc,
@@ -21,19 +21,18 @@ const Article: React.FC<ArticleProps> = ({
 }) => {
   return (
     <>
-      <div className="container">
-        <div className="img-container">
-          <img src={imgSrc} alt={imgAlt} />
-        </div>
-
+      <div className="containerHL">
         <div className="article-container">
           <h2 className="article-title">{title}</h2>
           <p className="article-text">{text}</p>
           <Button buttonText={buttonText} link={link} />
+        </div>
+        <div className="img-container">
+          <img src={imgSrc} alt={imgAlt} />
         </div>
       </div>
     </>
   )
 }
 
-export default Article
+export default ArticleHighlight

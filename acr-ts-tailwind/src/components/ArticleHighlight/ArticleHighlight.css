@@ -1,8 +1,9 @@
 /* GENERAL container */
-.container {
+.containerHL {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
+  background-color: #f7edca;
 }
 
 /* IMAGE container */
