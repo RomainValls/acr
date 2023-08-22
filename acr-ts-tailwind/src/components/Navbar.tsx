@@ -4,8 +4,8 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div>
-      <ul className="flex place-content-evenly">
+    <div className="p-4 bg-slate-50">
+      <ul className="flex items-center place-content-evenly">
         <img
           className="w-16 h-16 rounded-xl"
           src="/images/acr_logo.webp"

@@ -1,18 +1,21 @@
+
 import React from "react"
 import Banner from "./Banner/Banner"
 import Article from "./Article/Article"
 import ArticleHighlight from "./ArticleHighlight/ArticleHighlight"
-
+      
 const Homepage = () => {
   return (
-    <>
-      <Banner
+    <div>
+      
+        <Banner
         imageUrl="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg"
         altText="save the cats pls"
         heading="Hello from cats! meow meow"
         //here - buttons
       />
-
+      
+      
       <Article
         title="Nous souhaitons partager la ville avec les animaux qui nous entourent."
         text="Notre coeur de métier est la capture des chats dans le but de les stériliser, de les identifier et de les soigner. Ils sont ensuite remis en liberté dans des espaces dédiés, des nourriciers et des associations s'occupent de leur bien être. Les chats qui peuvent être adoptés sont accueillis au sein de notre refuge."
