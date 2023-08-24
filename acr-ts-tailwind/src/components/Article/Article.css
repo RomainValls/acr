@@ -1,0 +1,30 @@
+/* GENERAL container */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+/* IMAGE container */
+
+.img-container {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* TEXT containe */
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.article-container {
+  width: 40vw;
+  text-align: left;
+}
+
+.article-text {
+  margin: 1rem 0;
+}

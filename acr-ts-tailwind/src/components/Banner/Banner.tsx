@@ -15,7 +15,7 @@ const Banner: React.FC<BannerProps> = ({ imageUrl, altText, heading }) => {
 
   return (
     <>
-      <div className="img-container">
+      <div className="big-img">
         <img src={imageUrl} alt={altText} className="banner-img" />
         <div className="overlay">
           <h2>{heading}</h2>
