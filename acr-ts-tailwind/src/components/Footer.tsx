@@ -60,6 +60,7 @@ const Footer: React.FC = () => {
             </Link>
           </li>
           <br />
+
           <li className="">
             <Link to="#" className="">
               Mentions légales
@@ -79,6 +80,11 @@ const Footer: React.FC = () => {
           </li>
           <li className="">
             <Link to="#" className="">
+              Régions IDF
+            </Link>
+          </li>
+          <li className="">
+            <Link to="#" className="">
               Hôpitaux
             </Link>
           </li>
@@ -88,7 +94,7 @@ const Footer: React.FC = () => {
             </Link>
           </li>
           <br />
-          <br />
+
           <li className="">
             <Link to="#" className="">
               Politique de confidentialité
@@ -98,17 +104,17 @@ const Footer: React.FC = () => {
         <ul className="">
           <li className="list-title">
             <Link to="#" className="">
-              Publications
+              Adoption
             </Link>
           </li>
           <li className="">
             <Link to="#" className="">
-              Ecologie de la réconciliation
+              Venez nous adopter
             </Link>
           </li>
           <li className="">
             <Link to="#" className="">
-              Newsletters
+              Autres animaux
             </Link>
           </li>
           <br />
@@ -142,18 +148,24 @@ const Footer: React.FC = () => {
           <br />
           <li>
             <div className="socials-container">
-              <img
-                src="https://cdn2.iconfinder.com/data/icons/user-interface-line-38/24/Untitled-5-19-256.png"
-                alt="person"
-              />
-              <img
-                src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Facebook-Outline-512.png"
-                alt="fb"
-              />
-              <img
-                src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Instagram-Outline-256.png"
-                alt="insta"
-              />
+              <Link to="#" className="">
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/user-interface-line-38/24/Untitled-5-19-256.png"
+                  alt="person"
+                />
+              </Link>
+              <Link to="#" className="">
+                <img
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Facebook-Outline-512.png"
+                  alt="fb"
+                />
+              </Link>
+              <Link to="#" className="">
+                <img
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Instagram-Outline-256.png"
+                  alt="insta"
+                />
+              </Link>
             </div>
           </li>
         </ul>

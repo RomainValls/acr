@@ -1,7 +1,7 @@
 footer {
   background-color: #004268;
   color: white;
-  /* font-size: smaller; */
+  font-size: smaller;
   width: 100%;
   position: absolute;
   left: 0;
@@ -39,6 +39,11 @@ footer li:hover {
 .logo-footer {
   margin: 0 1rem;
 }
+
+.logo-footer img {
+  width: 100%;
+}
 #about-footer {
   width: 30%;
+  font-size: smaller;
 }
