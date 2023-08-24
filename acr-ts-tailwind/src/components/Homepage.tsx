@@ -1,9 +1,14 @@
 
+
+import React from "react";
+import { Link } from "react-router-dom";
 import React from "react"
 import Banner from "./Banner/Banner"
 import Article from "./Article/Article"
-import ArticleHighlight from "./ArticleHighlight/ArticleHighlight"
-      
+import Button from "./Button/Button"
+
+
+
 const Homepage = () => {
   return (
     <div>
@@ -14,6 +19,15 @@ const Homepage = () => {
         heading="Hello from cats! meow meow"
         //here - buttons
       />
+
+      <Article />
+      <Button buttonText="click click" link="#" />
+      <Article />
+      <Button buttonText="meow meow" link="#" />
+      <Article />
+    </>
+  )
+}
       
       
       <Article

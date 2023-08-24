@@ -1,4 +1,5 @@
 import React from "react"
+
 import "./Article.css"
 import Button from "../Button/Button"
 
@@ -33,6 +34,7 @@ const Article: React.FC<ArticleProps> = ({
         </div>
       </div>
     </>
+
   )
 }
 
