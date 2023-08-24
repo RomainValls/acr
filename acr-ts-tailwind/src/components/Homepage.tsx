@@ -1,10 +1,12 @@
 
+
 import React from "react";
 import { Link } from "react-router-dom";
 import React from "react"
 import Banner from "./Banner/Banner"
 import Article from "./Article/Article"
 import Button from "./Button/Button"
+
 
 
 const Homepage = () => {
@@ -27,93 +29,36 @@ const Homepage = () => {
   )
 }
       
-      <section
-        className="p-64 bg-cover"
-        style={{ backgroundImage: "url('/images/cat_grass.jpg')" }}
-      >
-        <h2 className="text-white  font-bold text-4xl">
-          Mieux vivre ensemble avec les chats de nos rues
-        </h2>
-        <button>J'adopte</button>
-        <button>Je donne</button>
-        <button>Perdu ou trouvé</button>
-      </section>
-      <section className="bg-slate-50 flex p-20">
-        <div className=" w-1/2 flex items-center justify-center">
-          <img src="" alt="animaux" />
-        </div>
-        <div className="w-1/2 p-3 flex flex-col justify-center">
-          <h2 className="mb-3 font-bold text-2xl text-center sm:text-left">
-            Nous souhaitons partager la ville avec les animaux qui nous
-            entourent
-          </h2>
-          <p className="text-center sm:text-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            beatae nemo, soluta necessitatibus sunt nihil cupiditate, aspernatur
-            itaque facere eos earum corporis perspiciatis omnis sed vero
-            nesciunt. Deleniti iste, adipisci odio earum modi repudiandae
-            architecto magni! Quod, in sed. Iste ea rerum a ullam, aut sapiente
-            enim nihil illum officiis!
-          </p>
-          <Link to="/missions">
-            <button className="bg-orange-400 rounded-lg p-3">
-              Nos missions
-            </button>
-          </Link>
-        </div>
-      </section>
-      <section className="bg-amber-100 flex p-20">
-        <div className="w-1/2 p-3 flex flex-col justify-center">
-          <h2 className="mb-3 font-bold text-2xl text-center sm:text-left">
-            Nous souhaitons partager la ville avec les animaux qui nous
-            entourent
-          </h2>
-          <p className="text-center sm:text-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            beatae nemo, soluta necessitatibus sunt nihil cupiditate, aspernatur
-            itaque facere eos earum corporis perspiciatis omnis sed vero
-            nesciunt. Deleniti iste, adipisci odio earum modi repudiandae
-            architecto magni! Quod, in sed. Iste ea rerum a ullam, aut sapiente
-            enim nihil illum officiis!
-          </p>
-          <Link to="/activites">
-            <button className="bg-orange-400 rounded-lg p-3">
-              Nos activités
-            </button>
-          </Link>
-        </div>
-        <div className=" w-1/2 flex items-center justify-center">
-          <img src="" alt="animaux" />
-        </div>
-      </section>
-      <section className="bg-slate-50 flex p-20">
-        <div className=" w-1/2 flex items-center justify-center">
-          <img src="" alt="animaux" />
-        </div>
-        <div className="w-1/2 p-3 flex flex-col justify-center">
-          <h2 className="mb-3 font-bold text-2xl text-center sm:text-left">
-            Nous souhaitons partager la ville avec les animaux qui nous
-            entourent
-          </h2>
-          <p className="text-center sm:text-left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            beatae nemo, soluta necessitatibus sunt nihil cupiditate, aspernatur
-            itaque facere eos earum corporis perspiciatis omnis sed vero
-            nesciunt. Deleniti iste, adipisci odio earum modi repudiandae
-            architecto magni! Quod, in sed. Iste ea rerum a ullam, aut sapiente
-            enim nihil illum officiis!
-          </p>
-          <Link to="/actualites">
-            <button className="bg-orange-400 rounded-lg p-3">
-              Nos actualités
-            </button>
-          </Link>
-        </div>
-      </section>
+      
+      <Article
+        title="Nous souhaitons partager la ville avec les animaux qui nous entourent."
+        text="Notre coeur de métier est la capture des chats dans le but de les stériliser, de les identifier et de les soigner. Ils sont ensuite remis en liberté dans des espaces dédiés, des nourriciers et des associations s'occupent de leur bien être. Les chats qui peuvent être adoptés sont accueillis au sein de notre refuge."
+        imgSrc="https://media.istockphoto.com/id/1334070091/photo/pensive-bengal-cat-in-a-blue-tie-near-a-laptop-and-a-diary-sits-home-office-remote-work.jpg?s=612x612&w=0&k=20&c=vBp3dCwUVKXDxga-dESreruuLN24rAZYNr7Asc6KdtI="
+        imgAlt="cat at work"
+        buttonText="Nos missions"
+        link="#"
+      />
 
-      <section></section>
-    </div>
-  );
-};
+      <ArticleHighlight
+        title="L'animal peut être une chance, un atout si l’on apprend à le connaître et si on lui donne sa place."
+        text="La gestion respectueuse des chats de nos rues est aussi importante que la préservation des animaux de la planète. Et elle est à notre portée !
+        Nous organisons des activités pédagogiques dans les centres de loisirs afin d'aborder ces sujets avec les enfants ains que des Activités Associant l'Animal (A.A.A.) avec des personnes âgées dans les jardins des maisons de retraite."
+        imgSrc="https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg"
+        imgAlt="cat cat"
+        buttonText="Nos activités"
+        link="#"
+      />
+
+      <Article
+        title="ACR était invitée à une remise des trophées pour le label « Ville amie des animaux »"
+        text="Depuis 2020, la Région distingue avec le label « Ville amie des animaux », de 1 à 3 pattes, les communes franciliennes qui œuvrent en faveur de la protection des animaux de compagnie, contre la maltraitance et l'abandon. Bravo aux associations, aux villes et merci à la région Ile de Fance pour cette initiative et bien d'autres encore sur la protection animale."
+        imgSrc="https://npr.brightspotcdn.com/dims4/default/2cdd2f8/2147483647/strip/true/crop/2304x1419+0+787/resize/880x542!/quality/90/?url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2014%2F07%2F11%2F167106079_custom-217cb0d7e3b801ecaa1f0b9d6d58efa076987ff3.jpg"
+        imgAlt="a high cat"
+        buttonText="Nos activités"
+        link="#"
+      />
+    </>
+  )
+}
 
 export default Homepage
