@@ -1,0 +1,44 @@
+footer {
+  background-color: #004268;
+  color: white;
+  /* font-size: smaller; */
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+footer ul {
+  margin: 0 1rem;
+  gap: 1rem;
+}
+
+footer li:hover {
+  text-decoration: underline;
+}
+.container-footer {
+  padding: 2rem 4rem;
+  display: flex;
+  text-align: left;
+}
+
+.list-title {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo-footer {
+  margin: 0 1rem;
+}
+#about-footer {
+  width: 30%;
+}
