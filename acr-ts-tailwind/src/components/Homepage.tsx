@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import Banner from "./Banner/Banner"
 import Article from "./Article/Article"
-import Button from "./Button/Button"
 import ArticleHighlight from "./ArticleHighlight/ArticleHighlight"
 
 const Homepage = () => {

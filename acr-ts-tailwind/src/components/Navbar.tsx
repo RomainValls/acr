@@ -6,11 +6,13 @@ const Navbar = () => {
   return (
     <div className="p-4 bg-slate-50">
       <ul className="flex items-center place-content-evenly">
-        <img
-          className="w-16 h-16 rounded-xl"
-          src="/images/acr_logo.webp"
-          alt="logo"
-        />
+        <Link to="/">
+          <img
+            className="w-16 h-16 rounded-xl"
+            src="/images/acr_logo.webp"
+            alt="logo"
+          />
+        </Link>
 
         <ul className="nav-list">
           <li>
@@ -27,7 +29,7 @@ const Navbar = () => {
           </li>
           <li>
             {" "}
-            <Link to="">Accès rapide</Link>
+            <Link to="#">Accès rapide</Link>
           </li>
         </ul>
       </ul>

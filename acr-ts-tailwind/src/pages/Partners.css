@@ -1,0 +1,31 @@
+.intro-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 2rem;
+}
+
+.partners-list {
+  text-align: left;
+  width: 40%;
+  background-color: #f7edca;
+  padding: 1rem 3rem;
+  list-style: inside;
+  text-decoration: underline;
+}
+.partners-list > li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#p-intro {
+  width: 40%;
+  margin: auto 0;
+}
+
+.partners-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #004268;
+}
